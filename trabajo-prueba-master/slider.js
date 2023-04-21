@@ -4,7 +4,9 @@ var imagenes = [
     "img/cumple.jpg",
     "img/golosinas.jpg",
     "img/reposteria.jpg",
-    "img/descartables.jpg"
+    "img/descartables.jpg",
+    "img/7497aa07-20c4-46b8-8564-feaad7377846.jpg"
+
     ];
     
     
