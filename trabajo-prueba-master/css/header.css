@@ -1,0 +1,26 @@
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header h1{
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+header p{
+    margin: 0 0 10px;
+
+}
+header div{
+    background-color: rgba(00, 00, 00, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
+}

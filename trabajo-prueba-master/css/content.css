@@ -1,0 +1,51 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: var(--color-primary-dark);
+}
+
+.main img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.main .read-more{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: var(--color-secundary-dark);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .read-more:hover{
+    background-color: var(--color-secundary);
+
+}
+
+#more-post{
+    display: block;
+    color: var(--color-primary-dark);
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#more-post:hover{
+    color: var(--color-primary);
+}

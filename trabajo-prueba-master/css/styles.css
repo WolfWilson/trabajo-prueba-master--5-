@@ -1,0 +1,114 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "content.css";
+@import "footer.css";
+@import "flipcard.css";
+@import "formulario.css";
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    .navbar, .row{
+        flex-direction:column;
+    }
+}
+
+
+span {
+    display: none;
+    color:red;
+    font-size: smaller;
+    
+
+}
+
+header {
+   
+    background-size: cover;
+    height: 270px;
+    margin-bottom: 0px;
+    padding: 4px;
+    
+ }
+
+
+    .contenedor-slider
+    {
+    display: flex;
+    align-items:center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px;
+    position: relative;
+    margin: auto;
+
+    
+    }
+    
+    .slider-izquierdo, .slider-derecho
+    {
+        width: 5%;
+      
+        width: 40px;
+        height: 40px;
+
+    }
+    
+    .slider-izquierdo img, .slider-derecho img
+    {
+        width: 100%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .slider-screen
+    {
+        width: 90%; 
+        display: block;
+    }
+    
+    .slider-screen img
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .select-container {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      
+      span {
+        display: block;
+        margin-top: 5px;
+        color: red;
+        font-size: 14px;
+      }
+      
